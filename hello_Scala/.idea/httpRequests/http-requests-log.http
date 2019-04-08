@@ -1,0 +1,25 @@
+GET https://httpbin.org/status/200
+
+###
+
+GET https://httpbin.org/ip
+Accept: application/json
+
+<> 2019-04-08T095739.200.json
+
+###
+
+GET https://httpbin.org/get?show_env=1
+Accept: application/json
+
+<> 2019-04-08T095428.200.json
+
+###
+
+GET https://httpbin.org/ip
+Accept: application/json
+
+<> 2019-04-08T095345.200.json
+
+###
+
