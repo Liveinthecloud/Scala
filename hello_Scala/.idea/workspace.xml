@@ -28,7 +28,7 @@
     <session id="1683233360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="1" />
@@ -39,31 +39,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
+          <entry key="class" value="10" />
           <entry key="http" value="3" />
           <entry key="java" value="1" />
-          <entry key="scala" value="23" />
+          <entry key="scala" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
+          <entry key="CLASS" value="10" />
           <entry key="HTTP Request" value="3" />
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="23" />
+          <entry key="Scala" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="2628" />
+          <entry key="scala" value="2937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="2628" />
+          <entry key="Scala" value="2937" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hello_Scala" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -103,11 +106,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/偏函数/PartialFunctionDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -143,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/参数/DefaultParams.scala" />
         <option value="$PROJECT_DIR$/src/偏函数/PartialFunction.scala" />
         <option value="$PROJECT_DIR$/src/偏函数/PartialFunctionDemo.scala" />
+        <option value="$PROJECT_DIR$/src/数组操作/ArrayOpt.scala" />
       </list>
     </option>
   </component>
@@ -187,59 +200,11 @@
               <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="偏函数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="参数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="基本语法" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="柯里化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="部分参数函数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="高阶函数" type="462c0819:PsiDirectoryNode" />
+              <item name="数组操作" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.12 (2)" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.12 (2)" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.11.12 (2)" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,7 +217,7 @@
     <property name="SearchEverywhereHistoryKey" value="Function1&#9;null&#9;null&#10;function1&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554821526245" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554823220524" />
     <property name="idea.background.editor" value="C:\Users\我\Desktop\ideaBack\3.jpg,8,scale,center" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/scala/lib/scala-library.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -327,7 +292,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartialFunctionDemo">
+  <component name="RunManager" selected="Application.ArrayOpt">
+    <configuration name="ArrayOpt" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="数组操作.ArrayOpt" />
+      <module name="hello_Scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="数组操作.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Currying" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="柯里化.Currying" />
       <module name="hello_Scala" />
@@ -380,29 +358,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="hello_Scala" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Scala Console.Scala Console" />
       <item itemvalue="Application.HightFunction" />
       <item itemvalue="Application.PartParamFunction" />
       <item itemvalue="Application.Currying" />
       <item itemvalue="Application.PartialFunctionDemo" />
+      <item itemvalue="Application.ArrayOpt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayOpt" />
         <item itemvalue="Application.PartialFunctionDemo" />
         <item itemvalue="Application.Currying" />
         <item itemvalue="Application.PartParamFunction" />
         <item itemvalue="Application.HightFunction" />
-        <item itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
@@ -420,12 +389,12 @@
       <workItem from="1554690277709" duration="12203000" />
       <workItem from="1554730523174" duration="3161000" />
       <workItem from="1554767715153" duration="4545000" />
-      <workItem from="1554802298729" duration="10619000" />
+      <workItem from="1554802298729" duration="12766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31140000" />
+    <option name="totallyTimeSpent" value="33287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,25 +407,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="357" y="46" width="1408" height="862" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.17507419" />
-      <window_info id="Structure" order="1" sideWeight="0.50087875" side_tool="true" weight="0.2496136" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719626" visible="true" weight="0.28635016" />
+      <window_info id="Structure" order="1" sideWeight="0.50280374" side_tool="true" weight="0.17507419" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50280374" side_tool="true" weight="0.17507419" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925816" visible="true" weight="0.2651099" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925816" weight="0.32692307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47722343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925816" weight="0.33104396" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074184" side_tool="true" weight="0.2651099" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.50074184" side_tool="true" visible="true" weight="0.2651099" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.21303657" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -643,6 +611,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/scala/Array.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/DeathPactException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ReactorRef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/scala/lib/scala-actors-migration_2.11-1.1.0.jar!/scala/actors/migration/ActWithStash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
