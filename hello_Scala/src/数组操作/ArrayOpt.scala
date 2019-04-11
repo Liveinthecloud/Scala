@@ -16,6 +16,17 @@ object ArrayOpt {
     println(stringses(0).toBuffer,stringses(1).toBuffer)
     val flatten = stringses.flatten//扁平化
     println(flatten.toBuffer)
+    //快速实现扁平化
+    val strings = arr_1.flatMap(_.split(" "))
+    println(strings.toBuffer)
+
+    //foreach
+    arr_1.flatMap(_.split(" ")).foreach(println)
+    //groupBy
+    arr_1.flatMap(_.split(" ")).groupBy(x=>x).map(x=>x._2)
+    arr_1.flatMap(_.split(" ")).groupBy(x=>x).mapValues(_.length).foreach(println)
+    arr_1.flatMap(_.split(" ")).groupBy(x=>x).mapValues(_.length).toList.sortBy(x => - x._2).foreach(println)
+
   }
 
 }
