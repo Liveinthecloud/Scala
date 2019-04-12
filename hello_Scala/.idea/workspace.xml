@@ -28,13 +28,14 @@
     <session id="1683233360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/偏函数/PartialFunctionDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
+            <state relative-caret-position="135">
               <caret line="5" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
@@ -118,7 +119,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="114">
               <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
             </state>
           </provider>
@@ -127,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/scala/Predef.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="2808">
               <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
             </state>
           </provider>
@@ -189,11 +190,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2136" />
-    <option name="y" value="168" />
-    <option name="width" value="1408" />
-    <option name="height" value="862" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1974" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -201,7 +202,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,6 +240,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +248,7 @@
     <property name="SearchEverywhereHistoryKey" value="Function1&#9;null&#9;null&#10;function1&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554973987568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554985185529" />
     <property name="idea.background.editor" value="C:\Users\我\Desktop\ideaBack\3.jpg,8,scale,center" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/scala/lib/scala-library.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -421,11 +422,12 @@
       <workItem from="1554767715153" duration="4545000" />
       <workItem from="1554802298729" duration="12766000" />
       <workItem from="1554965635330" duration="4528000" />
+      <workItem from="1555028591944" duration="7940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37815000" />
+    <option name="totallyTimeSpent" value="45755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,10 +439,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2136" y="168" width="1408" height="862" extended-state="0" />
-    <editor active="true" />
+    <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719626" visible="true" weight="0.1810089" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719626" visible="true" weight="0.13616318" />
       <window_info id="Structure" order="1" sideWeight="0.50280374" side_tool="true" weight="0.17507419" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,16 +450,16 @@
       <window_info id="Favorites" order="6" sideWeight="0.50280374" side_tool="true" weight="0.17507419" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925816" visible="true" weight="0.43131867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925816" weight="0.43131867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47722343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925816" weight="0.33056134" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49925816" visible="true" weight="0.50623703" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074184" side_tool="true" weight="0.2006237" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.21303657" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.21291208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -467,7 +468,7 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32937685" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32937685" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.21389195" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,10 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="228" column="12" lean-forward="true" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,14 +651,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/偏函数/PartialFunctionDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
+        <state relative-caret-position="135">
           <caret line="5" selection-start-line="4" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/scala/Predef.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="2808">
           <caret line="104" column="6" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
         </state>
       </provider>
@@ -675,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="114">
           <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
         </state>
       </provider>
