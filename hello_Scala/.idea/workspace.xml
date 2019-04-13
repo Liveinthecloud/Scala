@@ -28,14 +28,15 @@
     <session id="1683233360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +44,7 @@
           <entry key="class" value="11" />
           <entry key="http" value="3" />
           <entry key="java" value="1" />
-          <entry key="scala" value="25" />
+          <entry key="scala" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,23 +52,25 @@
           <entry key="CLASS" value="11" />
           <entry key="HTTP Request" value="3" />
           <entry key="JAVA" value="1" />
-          <entry key="Scala" value="25" />
+          <entry key="Scala" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scala" value="3125" />
+          <entry key="scala" value="3197" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="3125" />
+          <entry key="Scala" value="3197" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="hello_Scala" />
+    <favorites_list name="hello_Scala">
+      <favorite_root url="Object说明.package$" module="hello_Scala" type="class" klass="com.intellij.ide.favoritesTreeView.smartPointerPsiNodes.ClassSmartPointerNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -116,11 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="141">
               <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Object说明/ObjectStatic.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -175,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/偏函数/PartialFunction.scala" />
         <option value="$PROJECT_DIR$/src/偏函数/PartialFunctionDemo.scala" />
         <option value="$PROJECT_DIR$/src/数组操作/ArrayOpt.scala" />
+        <option value="$PROJECT_DIR$/src/Object说明/ObjectStatic.scala" />
       </list>
     </option>
   </component>
@@ -190,47 +203,23 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1974" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="314" />
+    <option name="y" value="210" />
+    <option name="width" value="1439" />
+    <option name="height" value="644" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="偏函数" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="数组操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_Scala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="部分参数函数" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hello_Scala" type="b2602c69:ProjectViewProjectNode" />
@@ -241,6 +230,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +238,7 @@
     <property name="SearchEverywhereHistoryKey" value="Function1&#9;null&#9;null&#10;function1&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554985185529" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555119428318" />
     <property name="idea.background.editor" value="C:\Users\我\Desktop\ideaBack\3.jpg,8,scale,center" />
     <property name="last_opened_file_path" value="C:/Program Files (x86)/scala/lib/scala-library.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -423,11 +413,12 @@
       <workItem from="1554802298729" duration="12766000" />
       <workItem from="1554965635330" duration="4528000" />
       <workItem from="1555028591944" duration="7940000" />
+      <workItem from="1555114956452" duration="2583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45755000" />
+    <option name="totallyTimeSpent" value="48338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,9 +430,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1974" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="314" y="210" width="1439" height="644" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49719626" visible="true" weight="0.13616318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49719626" visible="true" weight="0.18056563" />
       <window_info id="Structure" order="1" sideWeight="0.50280374" side_tool="true" weight="0.17507419" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -456,10 +447,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49925816" visible="true" weight="0.50623703" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49925816" weight="0.95490193" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074184" side_tool="true" weight="0.2006237" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.21291208" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.21205822" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -468,7 +459,7 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32937685" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.21389195" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.21389195" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,10 +661,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Objects说明.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object说明/package.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/数组操作/ArrayOpt.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="141">
           <caret line="27" column="87" selection-start-line="27" selection-start-column="87" selection-end-line="27" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Object说明/ObjectStatic.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
