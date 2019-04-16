@@ -7,5 +7,11 @@
         <parameter value="H:\Scala\ActorDemo\target/.scala_dependencies" />
       </parameters>
     </profile>
+    <profile name="Maven 2" modules="Actor">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\Scala\ActorDemo\target/.scala_dependencies" />
+      </parameters>
+    </profile>
   </component>
 </project>
