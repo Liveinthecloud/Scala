@@ -10,7 +10,7 @@ class ClientActor extends Actor {
 
   //在启动前先执行该方法
   override def preStart(): Unit = {
-    serverActorRef = context.actorSelection("akka.tcp://Server@127.0.0.1:4555/user/server_1")
+    serverActorRef = context.actorSelection("akka.tcp://Server@127.0.0.1:4555/user/server_1")//拿到服务端的代理对象
   }
 
   override def receive: Receive = {
@@ -37,7 +37,7 @@ object ClientActor extends App {
   private val actorRef = client.actorOf(Props[ClientActor], "client_1")
   actorRef ! "start"
   while (true) {
-    val str = StdIn.readLine()
+    val str = StdIn.readLine() //命令行读取一行数据
     actorRef ! str
   }
 }

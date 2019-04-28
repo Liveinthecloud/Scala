@@ -11,7 +11,7 @@ RobotServer extends Actor {
   override def receive: Receive = {
     case "start" => println("启动成功！")
     case ClientMessage(msg) => {
-      println(s"Client：$msg")
+      println(s"Client：$msg")//显示客服端发送来的信息
       msg match {
         case "你是谁" => sender() ! ServerMessage("RobotServer")
         case "你是男是女" => sender() ! ServerMessage("我是一个机器")
@@ -32,7 +32,7 @@ object RobotServer extends App {
        |akka.remote.netty.tcp.hostname=$host
        |akka.remote.netty.tcp.port=$port
     """.stripMargin)
-  private val server = ActorSystem("Server", config)
-  private val serverActorRef = server.actorOf(Props[RobotServer], "server_1")
+  private val server = ActorSystem("Server", config)//启动工厂
+  private val serverActorRef = server.actorOf(Props[RobotServer], "server_1")//获取一个actorref
   serverActorRef ! "start"
 }
